@@ -15,7 +15,7 @@ You must have the AWC CLI installed and configured with your AWS Access Key, Sec
 
 * cd into the aws_setup directory
 
-* In your terminal run. This will spin up your instance and ssh you into it.
+* In your terminal run: (This will spin up your instance and ssh you into it.)
 ```
 $ bash start-aws-instance.sh {name-of-instance | defaults to fastai-part1v2}
 ```
