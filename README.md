@@ -11,7 +11,7 @@ You must have the AWC CLI installed and configured with your AWS Access Key, Sec
 
 ## Steps:
 
-* Clone my repo here: https://github.com/ohmeow/aws_setup4
+* Clone my repo here: https://github.com/ohmeow/aws_setup
 
 * cd into the aws_setup directory
 
@@ -48,7 +48,7 @@ $ bash stop-aws-instance.sh {name-of-instance | defaults to fastai-part1v2}
 
 * You’ll notice that while relying heavily on @radek’s version of the install script in step 4, I did make a few changes. The biggest one is simply using the environment.yml file in the fastai repo to create a “fastai” environment and install all the required packages for the course from it.
 
-* bThis is for setting up a persistent EC2 instance. If you are into saving $$$ and want to see how to get things working with spot instances, see @radek’s posts mentioned above. I purposely decided to go with using persistent images (for the time-being at least) because it was much more straight-forward to get operational quickly. The scripts are more generic and will allow you to completely avoid having to log into AWS to be operational.
+* This is for setting up a persistent EC2 instance. If you are into saving $$$ and want to see how to get things working with spot instances, see @radek’s posts mentioned above. I purposely decided to go with using persistent images (for the time-being at least) because it was much more straight-forward to get operational quickly. The scripts are more generic and will allow you to completely avoid having to log into AWS to be operational.
 
 * This is a work in progress so please feel free to post recommendations and submit pull-requests if you got ideas on how to improve.
 
