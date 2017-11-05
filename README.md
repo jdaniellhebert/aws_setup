@@ -1,11 +1,11 @@
 # aws_setup
 Various AWS scripts to make things a little less painful
 
-Inspired by @radek’s blog post [here]{https://medium.com/@radekosmulski/automated-aws-spot-instance-provisioning-with-persisting-of-data-ce2b32bdc102} and his two forum posts ([here]{http://forums.fast.ai/t/from-zero-to-running-lesson-1-notebook-on-aws-instance-in-80-seconds/7184?u=wgpubs}, and [here]{http://forums.fast.ai/t/aws-gpu-install-script-and-public-ami/6990?u=wgpubs}), I present a generic way to get up and running on AWS in less than 60 seconds (well, 60 seconds after you go through it the first time :slight_smile: ).
+Inspired by @radek’s blog post [here](https://medium.com/@radekosmulski/automated-aws-spot-instance-provisioning-with-persisting-of-data-ce2b32bdc102) and his two forum posts ([here](http://forums.fast.ai/t/from-zero-to-running-lesson-1-notebook-on-aws-instance-in-80-seconds/7184?u=wgpubs), and [here](http://forums.fast.ai/t/aws-gpu-install-script-and-public-ami/6990?u=wgpubs)), I present a generic way to get up and running on AWS in less than 60 seconds (well, 60 seconds after you go through it the first time :slight_smile: ).
 
 ## Prerequistes:
 
-You must have created a persistent p2.xlarge instance in EC2 and give it a name. I simply followed the instructions from the introductory workshop material [here]{http://forums.fast.ai/t/wiki-lesson-1/7011} and named my instance “fastai-part1v2”. For storage, I went with 50GB.
+You must have created a persistent p2.xlarge instance in EC2 and give it a name. I simply followed the instructions from the introductory workshop material [here](http://forums.fast.ai/t/wiki-lesson-1/7011) and named my instance “fastai-part1v2”. For storage, I went with 50GB.
 
 You must have the AWC CLI installed and configured with your AWS Access Key, Secret Access Key, and default region.
 
